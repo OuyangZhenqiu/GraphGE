@@ -1,6 +1,6 @@
 # GraphGE
 
-## Step0. Install Libs:
+## Step0. Install Libs
 ```
 conda create --name graphGE python=3.6
 conda activate graphGE
