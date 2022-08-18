@@ -17,7 +17,7 @@ pip install torch-spline-conv (1.2.1) (https://pytorch-geometric.com/whl/)
 pip install torch-geometric (2.0.2) (https://pytorch-geometric.com/whl/)  
 ```
 ## Step1: Data Preprocessing
-To download the data `https://drive.google.com/drive/folders/1bgq0gQIzT4GoEfDj_Z9ZeYmXI873gTDm` from and unzip into the folder '/data'.
+To download the data from `https://drive.google.com/drive/folders/1bgq0gQIzT4GoEfDj_Z9ZeYmXI873gTDm` and unzip into the folder '/data'.
 
 To use the file `preprocess_data.ipynb` to preprocess the data to obtain GDSC and TCGA dataset.
 
