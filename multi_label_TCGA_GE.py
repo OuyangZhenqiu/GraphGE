@@ -19,7 +19,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 
 # model
 from model.GraphGE import GNN
-from TCGA_GNN_dataset import load_skfold_dataloader_list
+from TCGA_dataset import load_skfold_dataloader_list
 
 def args_parse():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)

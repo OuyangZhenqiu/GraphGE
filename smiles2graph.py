@@ -4,7 +4,6 @@ import numpy as np
 from rdkit import Chem
 import rdkit.Chem.AllChem as AllChem
 from torch_geometric.data import Data
-from ogb
 import joblib
 import numpy as np
 import math

@@ -19,14 +19,14 @@ from utils import set_random_seed, ScheduledOptim, EarlyStopping
 
 # model
 from model.GraphGE import GNN
-from GNN_dataset import load_skfold_dataloader_list
+from GDSC_dataset import load_skfold_dataloader_list
 
 def args_parse():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     
     # basis
     parser.add_argument('--seed', type=int, default=23)
-    parser.add_argument('--device', type=str, default='cuda:6')
+    parser.add_argument('--device', type=str, default='cuda')
     parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--dropout', type=float, default=0.1)
     parser.add_argument('--num_epoch', type=int, default=300)
